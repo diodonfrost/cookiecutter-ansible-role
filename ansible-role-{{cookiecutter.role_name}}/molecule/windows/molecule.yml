@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+  provider:
+    name: libvirt
+platforms:
+  - name: windows-10
+    box: peru/windows-10-enterprise-x64-eval
+    memory: 4096
+    cpus: 4
+provisioner:
+  name: ansible
+  options:
+    extra-vars: "{
+      'ansible_become': 'false',
+      'ansible_user': 'vagrant',
+      'ansible_password': 'vagrant',
+      'ansible_port': '5985',
+      'ansible_connection': 'winrm',
+      'ansible_winrm_transport': 'basic',
+      'ansible_winrm_server_cert_validation': 'ignore',
+      'ansible_shell_type': 'powershell',
+      'ansible_shell_executable': 'None'
+    }"

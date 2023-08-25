@@ -1,0 +1,4 @@
+---
+- hosts: localhosts
+  roles:
+    - {{ cookiecutter.ansible_galaxy_user }}.{{ cookiecutter.role_name }}

@@ -1,0 +1,49 @@
+galaxy_info:
+  role_name: {{ cookiecutter.role_name }}
+  author: {{ cookiecutter.ansible_galaxy_user }}
+  company: {{ cookiecutter.company }}
+  description: {{ cookiecutter.project_short_description }}
+  license: {{ cookiecutter.license }}
+
+  min_ansible_version: {{ cookiecutter.min_ansible_version }}
+
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    {%- if cookiecutter.freebsd_support %}
+    - name: FreeBSD
+      versions:
+        - all
+    {%- endif %}
+    {%- if cookiecutter.openbsd_support %}
+    - name: OpenBSD
+      versions:
+        - all
+    {%- endif %}
+    {%- if cookiecutter.macos_support %}
+    - name: MacOSX
+      versions:
+        - all
+    {%- endif %}
+    {%- if cookiecutter.windows_support %}
+    - name: Windows
+      versions:
+        - all
+    {%- endif %}
+
+  galaxy_tags:
+    - {{ cookiecutter.galaxy_tag_1 }}
+    - {{ cookiecutter.galaxy_tag_2 }}
+    - {{ cookiecutter.galaxy_tag_3 }}
+
+dependencies: []

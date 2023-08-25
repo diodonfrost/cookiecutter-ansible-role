@@ -1,0 +1,17 @@
+{
+  "ansible_galaxy_user": "diodonfrost",
+  "role_name": "my_role",
+  "company": "diodonfrost company",
+  "project_short_description": "",
+  "min_ansible_version": "2.9.0",
+  "openbsd_support":[true, false],
+  "freebsd_support":[true, false],
+  "solaris_support":[true, false],
+  "macos_support":[true, false],
+  "windows_support":[true, false],
+  "license": ["MIT license", "BSD license", "Apache 2"],
+  "galaxy_tag_1":"tag1",
+  "galaxy_tag_2":"tag2",
+  "galaxy_tag_3":"tag3",
+  "dev_container": [true, false]
+}
