@@ -10,7 +10,7 @@
   "solaris_support":[true, false],
   "macos_support":[true, false],
   "windows_support":[true, false],
-  "license": ["Apache Software License 2.0", "BSD-3", "GNU GPL v3.0", "MIT", "Mozilla Public License 2.0"],
+  "license": ["Apache Software License 2.0", "BSD-3", "GNU GPL v3.0", "MIT", "Mozilla Public License 2.0", "Unlicense"],
   "galaxy_tag_1":"tag1",
   "galaxy_tag_2":"tag2",
   "galaxy_tag_3":"tag3",
