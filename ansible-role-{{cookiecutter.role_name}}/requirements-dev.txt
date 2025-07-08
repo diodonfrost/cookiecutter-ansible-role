@@ -1,8 +1,10 @@
-ansible-compat == 3.0.2 # https://github.com/ansible-community/molecule-plugins/issues/176
-ansible-lint == 6.*
-molecule == 5.*
+ansible-compat == 4.*
+ansible-lint == 24.*
+molecule == 24.*
 molecule-plugins[docker] == 23.*
 molecule-plugins[vagrant] == 23.*
 {%- if cookiecutter.windows_support %}
 pywinrm  == 0.*
 {%- endif %}
+pre-commit == 4.*
+yamllint == 1.*
