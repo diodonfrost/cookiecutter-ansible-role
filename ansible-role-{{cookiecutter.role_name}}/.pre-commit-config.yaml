@@ -13,7 +13,7 @@ repos:
     rev: v25.6.1
     hooks:
       - id: ansible-lint
-        entry: python3 -m ansiblelint -v --force-color --exclude tests/ --exclude .github/
+        entry: python3 -m ansiblelint -v --force-color --exclude tests/ --exclude .github/ --exclude verify.yml
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.37.1
     hooks:
