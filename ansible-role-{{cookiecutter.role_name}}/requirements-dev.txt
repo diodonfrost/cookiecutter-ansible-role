@@ -1,6 +1,6 @@
-ansible-compat == 4.*
-ansible-lint == 24.*
-molecule == 24.*
+ansible-compat == 25.*
+ansible-lint == 25.*
+molecule == 25.*
 molecule-plugins[docker] == 23.*
 molecule-plugins[vagrant] == 23.*
 {%- if cookiecutter.windows_support %}
